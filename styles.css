@@ -1,0 +1,14 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 60vw;
+    background: lightblue;
+}
+
+h1 {
+    color: deeppink;
+}
