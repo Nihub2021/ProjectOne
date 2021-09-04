@@ -4,9 +4,10 @@ body{
     justify-content: center;
 }
 
-.header {
+.main {
     width: 60vw;
     background: lightblue;
+    text-align: center;
 }
 
 h1 {
