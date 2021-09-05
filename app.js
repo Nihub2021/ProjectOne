@@ -1,13 +1,31 @@
 async function myFunction() {
+  let url = "https://nihubrestapi.herokuapp.com/one";
 
-  let url = "https://nihubrestapi.herokuapp.com/"
+  console.log("incoming");
 
-  console.log("launched");
-
-  document.getElementById("demo").innerHTML = "script running";
-
-  // const response = await fetch("http://localhost:5000/");
   const response = await fetch(url);
   const data = await response.json();
-  console.log("bam", data.values);
+  console.log("first", data.values);
+
+  let firstProperty = data.values[0][0];
+  let firstValue = data.values[1][0];
+  let secondProperty = data.values[0][1];
+  let secondValue = data.values[1][1];
+  let thirdProperty = data.values[2][1];
+  let thirdValue = data.values[2][2];
+  let fourthProperty = data.values[3][2];
+  let fourthValue = data.values[3][3];
+
+  document.getElementById("demo").innerHTML =
+    "Hello, my " +
+    firstProperty +
+    " is " +
+    firstValue +
+    " and my name is " +
+    secondValue +
+    "<br>" +
+    "I am from " +
+    thirdValue +
+    " and my age is " +
+    fourthValue;
 }
