@@ -17,9 +17,9 @@ async function myFunction() {
   let fourthValue = data.values[3][3];
 
   document.getElementById("demo").innerHTML =
-    "2018-Present" +
+    " 2018-Present " +
     firstProperty +
-    " is " +
+    " TEXTUM " +
     firstValue +
     " and my name is " +
     secondValue +
