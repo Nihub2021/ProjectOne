@@ -5,12 +5,13 @@ body {
 
 .main {
   width: 60vw;
-  background: lightblue;
+  background:rgb(2, 2, 82);
   text-align: center;
 }
 
 h1 {
-  color: deeppink;
+  color: lightgray;
+
 }
 
 button {
