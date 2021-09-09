@@ -1,16 +1,11 @@
 body {
   display: flex;
   justify-content: center;
-  font-size: 30px;
 }
 
 .main {
   width: 60vw;
-<<<<<<< HEAD
   background:rgb(72, 72, 185);
-=======
-  background:red;
->>>>>>> c85d1b2c49f7baafafb2623c105707f74d03b784
   text-align: center;
 }
 
@@ -21,5 +16,5 @@ h1 {
 
 button {
   display: block;
-  margin: 30px auto;
+  margin: 20px auto;
 }
