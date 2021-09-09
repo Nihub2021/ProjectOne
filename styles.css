@@ -6,12 +6,12 @@ body {
 
 .main {
   width: 60vw;
-  background: lightblue;
+  background: red;
   text-align: center;
 }
 
 h1 {
-  color: lightgray;
+  color: black;
 
 }
 
