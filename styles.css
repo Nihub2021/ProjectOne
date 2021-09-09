@@ -1,11 +1,12 @@
 body {
   display: flex;
   justify-content: center;
+  color: red;
 }
 
 .main {
   width: 60vw;
-  background:rgb(2, 2, 82);
+  background: black;
   text-align: center;
 }
 
