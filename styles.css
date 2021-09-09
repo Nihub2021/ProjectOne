@@ -6,13 +6,13 @@ body {
 
 .main {
   width: 60vw;
-  background:darkblue;
+  background:rgb(2, 2, 82);
   text-align: center;
 }
 
 h1 {
-  color: white;
-  font-size: 50px;
+  color: lightgray;
+
 }
 
 button {
